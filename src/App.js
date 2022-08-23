@@ -87,7 +87,7 @@ function App() {
           <Route exact path="/about" render={()=>{
             return (
               <>
-              <About/>
+              <About mode={mode}/>
               </>
             )
           }}>
